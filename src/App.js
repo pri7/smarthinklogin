@@ -58,7 +58,7 @@ class App extends Component {
               },
               "line_linked": {
                 "enable": true,
-                "distance": 150,
+                "distance": 80,
                 "color": "#ffffff",
                 "opacity": 0.8,
                 "width": 1
@@ -137,13 +137,10 @@ class App extends Component {
               <h3>CREATE INCIDENTS / REQUESTS, RESOLVE PROBLEMS <br/> OR FIND ANSWERS IN THE KNOWLEDGE BASE.</h3>
           </div>
           <div id="image" className="col-6">
-              <img src="/mob.png"/>
+              <img id="mob" src="/mob.png"/>
           </div>
           <div id="logIN" className="col-6">
-              {<i id="icon" className="fas fa-user-circle fa-4x"></i>}
             <input type="text" id="user" placeholder="USERNAME"/>
-            {<br></br>}
-            {<i id="icon" className="fas fa-lock" ></i>}
             <input type="password" id="password" placeholder="PASSWORD"/>
             <button className="signin" id="signin">SIGN IN</button>
           </div>
@@ -153,8 +150,10 @@ class App extends Component {
             <div class="column left" >
               <div className="card" >
                <div className="card-block">
-               <img id="image2" src="1.png"/>
-                 <div><h4 className="card-title">IT SERVICE MANAGEMENT <br/> <br/></h4></div>
+               <div className="img-cont">
+               <img  id="image1" src="1.png"/>
+               </div>
+                 <div><h4 className="card-title">IT SERVICE MANAGEMENT <br/><br/></h4></div>
                  <p className="card-text" id="ct1">Create incidents/requests, resolve problems or find answers in the knowledge base.</p>
                  <a href="#" className="btn btn-primary">Read More</a>
                </div>
@@ -163,7 +162,9 @@ class App extends Component {
             <div class="column middle" >
             <div className="card" >
              <div className="card-block">
-             <img id="image2" src="2.png"/>
+             <div className="img-cont">
+             <img id="image1" src="2.png"/>
+             </div>
                <div><h4 className="card-title">REAL TIME IT OPERATIONS MANAGEMENT</h4></div>
                <p className="card-text" id="ct2">Manage IT with real time Operations Manager and Engineer Dashboards.</p>
                <a href="#" className="btn btn-primary">Read More</a>
@@ -174,9 +175,11 @@ class App extends Component {
             <div class="column right" >
             <div className="card" >
              <div className="card-block">
-             <img id="image2" src="3.png"/>
+             <div className="img-cont">
+             <img id="image1" src="3.png"/>
+             </div>
              <div>
-               <h4 className="card-title">ADMINISTRATION<br/> <br/></h4>
+               <h4 className="card-title">ADMINISTRATION<br/><br/></h4>
                </div>
                <p className="card-text" id="ct3">Manage users, events, reports and other administartive controls.</p>
                <a href="#" className="btn btn-primary">Read More</a>
@@ -184,7 +187,8 @@ class App extends Component {
           </div>
             </div>
           </div>
-
+          <div id="rest"> </div>
+          <div className="footer"><p id="foot">SmartThink 2.3.1</p> </div>
       </div>
     );
   }
