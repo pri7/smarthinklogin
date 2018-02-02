@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './favicon.png';
+
 import './App.css';
 import Particles from 'react-particles-js';
 
@@ -12,7 +12,7 @@ class App extends Component {
     var json = {
             "particles": {
               "number": {
-                "value": 60,
+                "value": 90,
                 "density": {
                   "enable": true,
                   "value_area": 800
@@ -28,7 +28,7 @@ class App extends Component {
                   "color": "#787878"
                 },
                 "polygon": {
-                  "nb_sides": 5
+                  "nb_sides": 10
                 },
                 "image": {
                   "src": "1.jpg",
@@ -41,13 +41,13 @@ class App extends Component {
                 "random": true,
                 "anim": {
                   "enable": false,
-                  "speed": 1,
+                  "speed": 0.5,
                   "opacity_min": 0,
                   "sync": false
                 }
               },
               "size": {
-                "value": 5,
+                "value": 8,
                 "random": true,
                 "anim": {
                   "enable": true,
@@ -58,7 +58,7 @@ class App extends Component {
               },
               "line_linked": {
                 "enable": true,
-                "distance": 80,
+                "distance": 90,
                 "color": "#ffffff",
                 "opacity": 0.8,
                 "width": 1
@@ -125,8 +125,8 @@ class App extends Component {
           <div class="brand-group">
 
             <div className="bran-logo">
-            <img  id="logo1" src="logo1.png"/>
-            <img id="logo2" src="logo2.png"/></div>
+            <img  id="logo1" src="logo1.png" alt="SmartThink Logo"/>
+            <img id="logo2" src="logo2.png" alt="Microland Logo"/></div>
 
           </div>
 
@@ -137,7 +137,7 @@ class App extends Component {
               <h3>CREATE INCIDENTS / REQUESTS, RESOLVE PROBLEMS <br/> OR FIND ANSWERS IN THE KNOWLEDGE BASE.</h3>
           </div>
           <div id="image" className="col-6">
-              <img id="mob" src="/mob.png"/>
+              <img id="mob" src="/mob.png" alt="A mobile"/>
           </div>
           <div id="logIN" className="col-6">
             <input type="text" id="user" placeholder="USERNAME"/>
@@ -151,11 +151,11 @@ class App extends Component {
               <div className="card" >
                <div className="card-block">
                <div className="img-cont">
-               <img  id="image1" src="1.png"/>
+               <img  id="image1" src="1.png" alt="IT Service Management Illustration"/>
                </div>
                  <div><h4 className="card-title">IT SERVICE MANAGEMENT <br/><br/></h4></div>
                  <p className="card-text" id="ct1">Create incidents/requests, resolve problems or find answers in the knowledge base.</p>
-                 <a href="#" className="btn btn-primary">Read More</a>
+                 <a href="" className="btn btn-primary">Read More</a>
                </div>
             </div>
             </div>
@@ -163,11 +163,11 @@ class App extends Component {
             <div className="card" >
              <div className="card-block">
              <div className="img-cont">
-             <img id="image1" src="2.png"/>
+             <img id="image1" src="2.png" alt="REAL TIME IT OPERATIONS MANAGEMEN Illustration"/>
              </div>
                <div><h4 className="card-title">REAL TIME IT OPERATIONS MANAGEMENT</h4></div>
                <p className="card-text" id="ct2">Manage IT with real time Operations Manager and Engineer Dashboards.</p>
-               <a href="#" className="btn btn-primary">Read More</a>
+               <a href="" className="btn btn-primary">Read More</a>
              </div>
           </div>
             </div>
@@ -176,13 +176,13 @@ class App extends Component {
             <div className="card" >
              <div className="card-block">
              <div className="img-cont">
-             <img id="image1" src="3.png"/>
+             <img id="image1" src="3.png" alt="ADMINISTRATION Illustration"/>
              </div>
              <div>
                <h4 className="card-title">ADMINISTRATION<br/><br/></h4>
                </div>
                <p className="card-text" id="ct3">Manage users, events, reports and other administartive controls.</p>
-               <a href="#" className="btn btn-primary">Read More</a>
+               <a href="" className="btn btn-primary">Read More</a>
              </div>
           </div>
             </div>
