@@ -470,7 +470,7 @@ p
       height: auto;
       z-index: 0.5;
       background-color: #ffffff;
-      min-height: 16rem;
+      min-height: 18rem;
 
 }
 .canvas
@@ -489,6 +489,7 @@ p
    color: white;
    text-align: center;
    z-index:8;
+
 }
 #foot
 {
