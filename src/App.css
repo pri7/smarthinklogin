@@ -156,7 +156,7 @@ input[type=text] {
   border: 1px solid #faf8f83d;
   border-radius: 6px;
   max-width: 100%;
-  height: 30%;
+  height: 25%%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-left: 5%;
@@ -176,7 +176,7 @@ input[type=password] {
   border: 1px solid #faf8f83d;
   border-radius: 6px;
   max-width: 100%;
-  height: 30%;
+  height: 25%%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-left: 5%;
@@ -202,7 +202,7 @@ input[type=password] {
 .container .signin {
     position: absolute;
     margin-top: 2%;
-    top: 78%;
+    top: 70%;
     left: 83%;
     width: 25%;
     -webkit-transition-duration: 1s;
