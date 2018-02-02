@@ -122,7 +122,7 @@ class App extends Component {
 }
     return (
       <div className="container">
-          <div class="brand-group">
+          <div className="brand-group">
 
             <div className="bran-logo">
             <img  id="logo1" src="logo1.png" alt="SmartThink Logo"/>
@@ -134,7 +134,7 @@ class App extends Component {
           <div id="text" className="col-6">
               <h1>Welcome to SmartThink..!!!</h1>
 
-              <h3>CREATE INCIDENTS / REQUESTS, RESOLVE PROBLEMS <br/> OR FIND ANSWERS IN THE KNOWLEDGE BASE.</h3>
+              <h3>CREATE INCIDENTS / REQUESTS, RESOLVE PROBLEMS OR FIND ANSWERS IN THE KNOWLEDGE BASE.</h3>
           </div>
           <div id="image" className="col-6">
               <img id="mob" src="/mob.png" alt="A mobile"/>
@@ -146,8 +146,8 @@ class App extends Component {
           </div>
 
 
-          <div class="row" id="row1" className="col-9">
-            <div class="column left" >
+          <div className="row" id="row1" className="col-9">
+            <div className="column left" >
               <div className="card" >
                <div className="card-block">
                <div className="img-cont">
@@ -159,7 +159,7 @@ class App extends Component {
                </div>
             </div>
             </div>
-            <div class="column middle" >
+            <div className="column middle" >
             <div className="card" >
              <div className="card-block">
              <div className="img-cont">
@@ -172,7 +172,7 @@ class App extends Component {
           </div>
             </div>
 
-            <div class="column right" >
+            <div className="column right" >
             <div className="card" >
              <div className="card-block">
              <div className="img-cont">
