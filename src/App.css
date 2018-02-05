@@ -134,7 +134,7 @@ body{
   width: 25%;
   background: #00024400;
   position: absolute;
-  top: 16%;
+  top: 14%;
   right: 12.5%;
   z-index: 1;
   display: flow-root;
@@ -355,7 +355,7 @@ z-index: 1;
       width: 30%;
       background: #00024400;
       position: absolute;
-      top: 7%;
+      top: 8%;
       left: 12.5%;
       z-index: 1;
 }
