@@ -122,69 +122,65 @@ class App extends Component {
 }
     return (
       <div className="container">
-          <div className="brand-group">
-
-            <div className="bran-logo">
+        <div className="brand-group">
+          <div className="bran-logo">
             <img  id="logo1" src="logo1.png" alt="SmartThink Logo"/>
-            <img id="logo2" src="logo2.png" alt="Microland Logo"/></div>
-
+            <img id="logo2" src="logo2.png" alt="Microland Logo"/>
           </div>
+        </div>
 
-          <Particles  params={json} />
-          <div id="text" className="col-6">
-              <h1>Welcome to SmartThink</h1>
-
-            <h3>BIG DATA PLATFORM FOR IT OPERATIONS ANALYTICS.</h3>
-          </div>
-          <div id="image" className="col-6">
-              <img id="mob" src="/mob.png" alt="A mobile"/>
-          </div>
-          <div id="logIN" className="col-6">
-            <input type="text" id="user" placeholder="USERNAME"/>
-            <input type="password" id="password" placeholder="PASSWORD"/>
-            <button className="signin" id="signin">SIGN IN</button>
-          </div>
-
-
-          <div className="row" id="row1">
-            <div className="column left" >
-              <div className="card" >
-               <div className="card-block">
-               <div className="img-cont">
-               <img  id="image1" src="1.png" alt="IT Service Management Illustration"/>
-               </div>
-                 <div><h4 className="card-title">IT OPERATIONS ANALYTICS</h4></div>
-                 <p className="card-text" id="ct1">Get a 360' view of your entire IT landscape to enhance availability, experience and ROI.</p>
-               </div>
-            </div>
-            </div>
-            <div className="column middle" >
+        <Particles  params={json} />
+        <div id="text" className="col-6">
+          <h1>Welcome to SmartThink</h1>
+          <h3>BIG DATA PLATFORM FOR IT OPERATIONS ANALYTICS.</h3>
+        </div>
+        <div id="image" className="col-6">
+          <img id="mob" src="/mob.png" alt="A mobile"/>
+        </div>
+        <div id="logIN" className="col-6">
+          <input type="text" id="user" placeholder="USERNAME"/>
+          <input type="password" id="password" placeholder="PASSWORD"/>
+          <button className="signin" id="signin">SIGN IN</button>
+        </div>
+        <div className="row" id="row1">
+          <div className="column left" >
             <div className="card" >
              <div className="card-block">
-             <div className="img-cont">
-             <img id="image1" src="2.png" alt="REAL TIME IT OPERATIONS MANAGEMEN Illustration"/>
-             </div>
-               <div><h4 className="card-title">BUSINESS INTELLIGENCE</h4></div>
-               <p className="card-text" id="ct2">Build Dashboards with a few clicks to visualise your data with descriptive analytics.</p>
-             </div>
-          </div>
+              <div className="img-cont">
+                <img  id="image1" src="1.png" alt="IT Service Management Illustration"/>
+              </div>
+              <div><h4 className="card-title">IT OPERATIONS ANALYTICS</h4></div>
+                <p className="card-text" id="ct1">Get a 360' view of your entire IT landscape to enhance availability, experience and ROI.</p>
+              </div>
             </div>
+          </div>
+          <div className="column middle" >
+            <div className="card" >
+              <div className="card-block">
+                <div className="img-cont">
+                  <img id="image1" src="2.png" alt="REAL TIME IT OPERATIONS MANAGEMEN Illustration"/>
+                </div>
+                <div><h4 className="card-title">BUSINESS INTELLIGENCE</h4></div>
+                <p className="card-text" id="ct2">Build Dashboards with a few clicks to visualise your data with descriptive analytics.</p>
+              </div>
+            </div>
+          </div>
 
-            <div className="column right" >
+          <div className="column right" >
             <div className="card" >
              <div className="card-block">
-             <div className="img-cont">
-             <img id="image1" src="3.png" alt="ADMINISTRATION Illustration"/>
-             </div>
-             <div>
+              <div className="img-cont">
+                <img id="image1" src="3.png" alt="ADMINISTRATION Illustration"/>
+              </div>
+              <div>
                <h4 className="card-title">ARTIFICIAL INTELLIGENCE</h4>
-               </div>
+              </div>
                <p className="card-text" id="ct3">Leverage Machine Learning to detect patterns, find anomalies and predict the future.</p>
              </div>
-          </div>
             </div>
           </div>
-          <div id="rest"> </div>
+        </div>
+        <div id="rest"> </div>
           <div className="footer"><p id="foot">SmartThink 2.3.1</p> </div>
       </div>
     );

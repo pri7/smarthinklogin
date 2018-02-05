@@ -1,61 +1,68 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
 *{
     box-sizing: border-box;
 }
 
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .App-intro {
-  font-size: large;
+    font-size: large;
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
 
 @font-face {
     font-family: font1;
     src: url(Dosis-Bold.ttf);
 }
+
 @font-face {
     font-family: font2;
     src: url(Dosis-ExtraBold.ttf);
 }
+
 @font-face {
     font-family: font3;
     src: url(Dosis-Light.ttf);
 }
+
 @font-face {
     font-family: font4;
     src: url(Dosis-Regular.ttf);
 }
+
 @font-face {
     font-family: font5;
     src: url(segoeui.ttf);
 }
+
 @font-face {
     font-family: font6;
     src: url(segoeuib.ttf);
 }
+
 @font-face {
     font-family: font7;
     src: url(seguili.ttf);
@@ -78,27 +85,23 @@ li{list-style:none}
 
 
 /* =============================================================================
-   My CSS
+   App's CSS
    ========================================================================== */
 
 /* ---- base ---- */
 
-html{
-	width:100%;
-	max-height:100%;
-  background-color: rgba(01, 26, 39, 0.9);
-
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-
-
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      position: fixed!important;
-
-
+html {
+  	width:100%;
+  	max-height:100%;
+    background-color: rgba(01, 26, 39, 0.9);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed!important;
 }
+
 layer {
     background-color: rgba(248, 247, 216, 00);
     position: absolute;
@@ -109,79 +112,74 @@ layer {
     z-index: 0.2;
 }
 
-html{
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-body{
-  font:normal 75% Arial, Helvetica, sans-serif;
+body {
+    font:normal 75% Arial, Helvetica, sans-serif;
 }
-
-
-
-
 
 /* ---- particles.js container ---- */
 
 
 .container {
-  postion: relative;
+    postion: relative;
 }
 
 
 #logIN {
-  height: 35%;
-  width: 25%;
-  background: #00024400;
-  position: absolute;
-  top: 14%;
-  right: 12.5%;
-  z-index: 1;
-  display: flow-root;
-  float: left;
+    height: 35%;
+    width: 25%;
+    background: #00024400;
+    position: absolute;
+    top: 14%;
+    right: 12.5%;
+    z-index: 1;
+    display: flow-root;
+    float: left;
 }
-
 
 input[type=text] {
-  width: 100%;
-  height: 17%;
-  padding-bottom: 1.2%;
-  margin-top: 2%;
-  font-size: 1.5em;
-  color: #d2d2d2;
-  font-family: font4;
-  letter-spacing: 1px;
-  background-color: #6daac938;
-  display: -ms-inline-flexbox;
-  display: inline-block;
-  border: 1px solid #798e99;
-  border-radius: 6px;
-  max-width: 100%;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding-left: 5%;
-  position: relative;
+    width: 100%;
+    height: 17%;
+    padding-bottom: 1.2%;
+    margin-top: 2%;
+    font-size: 1.5em;
+    color: #d2d2d2;
+    font-family: font4;
+    letter-spacing: 1px;
+    background-color: #6daac938;
+    display: -ms-inline-flexbox;
+    display: inline-block;
+    border: 1px solid #798e99;
+    border-radius: 6px;
+    max-width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 5%;
+    position: relative;
 }
-input[type=password] {
-  width: 100%;
-  padding-bottom: 1.2%;
-  margin-top: 4%;
-  font-size: 1.5em;
-  color: #d2d2d2;
-  font-family: font4;
-  letter-spacing: 1px;
-  background-color: #6daac938;
-  display: -ms-inline-flexbox;
-  display: inline-block;
-  border: 1px solid #798e99;
-  border-radius: 6px;
-  max-width: 100%;
-  height: 17%;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding-left: 5%;
-  position: relative;
 
+input[type=password] {
+    width: 100%;
+    padding-bottom: 1.2%;
+    margin-top: 4%;
+    font-size: 1.5em;
+    color: #d2d2d2;
+    font-family: font4;
+    letter-spacing: 1px;
+    background-color: #6daac938;
+    display: -ms-inline-flexbox;
+    display: inline-block;
+    border: 1px solid #798e99;
+    border-radius: 6px;
+    max-width: 100%;
+    height: 17%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 5%;
+    position: relative;
 }
 
 ::placeholder {
@@ -192,11 +190,11 @@ input[type=password] {
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: white;
+    color: white;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-   color: white;
+    color: white;
 }
 
 .container .signin {
@@ -221,7 +219,6 @@ input[type=password] {
     padding: 7px;
     padding-right: 18px;
     padding-left: 18px;
-
 }
 
 
@@ -231,24 +228,23 @@ input[type=password] {
     box-shadow: 0 6px 6px 0 rgba(256,256,256,0.24),0 17px 50px 0 rgba(256,256,256,0.12);
 }
 
-#icon{
-  font-size: 30px;
-  color: #ffffffb8;
-  padding: 10px;
-}
 
+#icon {
+    font-size: 30px;
+    color: #ffffffb8;
+    padding: 10px;
+}
 
 div.brand-group {
-
-  postion: absolute;
-  float: auto;
-  width: 100%;
-  height: auto;
-  z-index: 1;
-  background-color: #ffffff;
+    postion: absolute;
+    float: auto;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    background-color: #ffffff;
 }
-div.brand-logo {
 
+div.brand-logo {
     left: 50%;
     margin-left: 5%;
     margin-right: 5%;
@@ -261,8 +257,8 @@ div.brand-logo {
     font-size: medium;
     z-index: 1;
 }
-div.brand-logo2 {
 
+div.brand-logo2 {
     left: 50%;
     margin-left: 5%;
     top: 45%;
@@ -275,52 +271,50 @@ div.brand-logo2 {
 }
 
 
-
 body {
     margin: 0;
 }
 
-/* Create three unequal columns that floats next to each other */
 .column {
     float: left;
     padding: 10px;
-    height: auto; /* Should be removed. Only for demonstration */
+    height: auto;
     border-radius: 10px;
     text-align: center;
 }
 
 .left {
-  width: 32.66%;
-  background-color: #ffffff;
-
-  margin-right:1%;
+    width: 32.66%;
+    background-color: #ffffff;
+    margin-right:1%;
 }
+
 .right {
-  width: 32.66%;
-  background-color: #ffffff;
-  margin-left: 1%;
+    width: 32.66%;
+    background-color: #ffffff;
+    margin-left: 1%;
 }
 
 .middle {
-  width: 32.66%;
-  background-color: #ffffff;
+    width: 32.66%;
+    background-color: #ffffff;
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
+
 #row1 {
-height: auto;
-width: 75%;
-background: #00024400;
-position: absolute;
-top: 57%;
-right: 12.5%;
-z-index: 1;
+    height: auto;
+    width: 75%;
+    background: #00024400;
+    position: absolute;
+    top: 57%;
+    right: 12.5%;
+    z-index: 1;
 }
 
 
@@ -334,49 +328,48 @@ z-index: 1;
     z-index: 1;
 }
 
-#logo1
-{
-  padding: 17px;
-  margin-left: 12.5%;
-  width: 15%;
-  padding-bottom: 20px;
+
+#logo1 {
+    padding: 17px;
+    margin-left: 12.5%;
+    width: 15%;
+    padding-bottom: 20px;
 }
-#logo2
-{
-  padding: 17px;
-  float: right;
-  margin-right: 12.5%;
-  width: 12%;
-  padding-bottom: 20px;
+
+#logo2 {
+    padding: 17px;
+    float: right;
+    margin-right: 12.5%;
+    width: 12%;
+    padding-bottom: 20px;
 }
 
 #text {
-      height: auto;
-      width: 30%;
-      background: #00024400;
-      position: absolute;
-      top: 8%;
-      left: 12.5%;
-      z-index: 1;
-}
-h1
-{
-  color:#ffffff;
-  font-family:font4;
-  font-size: 2rem;
-  letter-spacing: 2px;
-  padding-top: 2%;
+    height: auto;
+    width: 30%;
+    background: #00024400;
+    position: absolute;
+    top: 8%;
+    left: 12.5%;
+    z-index: 1;
 }
 
-h3
-{
-  color: #ffffff;
-  font-size: 1em;
-  font-family: font4;
-  letter-spacing: 1px;
+h1 {
+    color:#ffffff;
+    font-family:font4;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding-top: 2%;
 }
-h4
-{
+
+h3 {
+    color: #ffffff;
+    font-size: 1em;
+    font-family: font4;
+    letter-spacing: 1px;
+}
+
+h4 {
     color: #106897;
     font-size: 1.2em;
     padding-left: 9.5%;
@@ -384,35 +377,33 @@ h4
     font-family: font1;
 }
 
-p
-{
-  color: #3d3d3d;
-  font-size: 1em;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
-  font-family: font4;
+p {
+    color: #3d3d3d;
+    font-size: 1em;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    font-family: font4;
 }
 
-.btn
-{
-  text-decoration: underline;
-  font-family: font4;
-  font-size: 0.8em;
-  color:#ff0000;
+.btn {
+    text-decoration: underline;
+    font-family: font4;
+    font-size: 0.8em;
+    color:#ff0000;
 }
-
-
 
 .row::after {
     content: "";
     clear: both;
     display: table;
 }
+
 [class*="col-"] {
     float: left;
     padding: 1px;
 
 }
+
 @media only screen and (min-width: 600px) {
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -427,6 +418,7 @@ p
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
 }
+
 @media only screen and (min-width: 768px) {
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -447,60 +439,61 @@ p
     max-height: 100%;
 }
 
-.img-cont{
-  height: auto;
-  width: 33%;
-  position: relative;
-  left: 0%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  z-index: 1;
-  align-items: center;
+.img-cont {
+    height: auto;
+    width: 33%;
+    position: relative;
+    left: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 1;
+    align-items: center;
 }
 
-#image1
-{
+#image1 {
     max-width:100%;
     max-height:100%;
-        padding: 4px;
+    padding: 4px;
   }
-#rest{
-      height: 50%;
-      width: 75%;
-      background-color: #ffffff;
-      position: absolute;
-      top: 65%;
-      float: left;
-      width: 100%;
-      height: auto;
-      z-index: 0.5;
-      background-color: #ffffff;
-      min-height: 18rem;
+
+#rest {
+    height: 50%;
+    width: 75%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 65%;
+    float: left;
+    width: 100%;
+    height: auto;
+    z-index: 0.5;
+    background-color: #ffffff;
+    min-height: 18rem;
 
 }
-.canvas
-{
+
+.canvas {
     width: 100%;
     height: 100%;
     overflow: hidden;
     position: fixed!important;
 }
+
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: rgba(01, 26, 39, 0.9);
-   color: white;
-   text-align: center;
-   z-index:8;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(01, 26, 39, 0.9);
+    color: white;
+    text-align: center;
+    z-index:8;
 
 }
-#foot
-{
-  color: #ffffff99;
-font-size: 0.7em;
-font-family: font1;
-letter-spacing: 1px;
+
+#foot {
+    color: #ffffff99;
+    font-size: 0.7em;
+    font-family: font1;
+    letter-spacing: 1px;
 }
