@@ -132,9 +132,9 @@ class App extends Component {
 
           <Particles  params={json} />
           <div id="text" className="col-6">
-              <h1>Welcome to SmartThink..!!!</h1>
+              <h1>Welcome to SmartThink</h1>
 
-              <h3>CREATE INCIDENTS / REQUESTS, RESOLVE PROBLEMS OR FIND ANSWERS IN THE KNOWLEDGE BASE.</h3>
+            <h3>BIG DATA PLATFORM FOR IT OPERATIONS ANALYTICS.</h3>
           </div>
           <div id="image" className="col-6">
               <img id="mob" src="/mob.png" alt="A mobile"/>
@@ -146,7 +146,7 @@ class App extends Component {
           </div>
 
 
-          <div className="row" id="row1" className="col-9">
+          <div className="row" id="row1">
             <div className="column left" >
               <div className="card" >
                <div className="card-block">
