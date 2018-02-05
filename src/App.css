@@ -130,7 +130,7 @@ body{
 
 
 #logIN {
-  height: 25%;
+  height: 35%;
   width: 25%;
   background: #00024400;
   position: absolute;
@@ -144,19 +144,19 @@ body{
 
 input[type=text] {
   width: 100%;
+  height: 17%;
   padding-bottom: 1.2%;
   margin-top: 2%;
   font-size: 1.5em;
-  color: white;
-  font-family: font3;
+  color: #d2d2d2;
+  font-family: font4;
   letter-spacing: 1px;
   background-color: #6daac938;
   display: -ms-inline-flexbox;
   display: inline-block;
-  border: 1px solid #faf8f83d;
+  border: 1px solid #798e99;
   border-radius: 6px;
   max-width: 100%;
-  height: 25%%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-left: 5%;
@@ -167,16 +167,16 @@ input[type=password] {
   padding-bottom: 1.2%;
   margin-top: 4%;
   font-size: 1.5em;
-  color: white;
-  font-family: font3;
+  color: #d2d2d2;
+  font-family: font4;
   letter-spacing: 1px;
   background-color: #6daac938;
   display: -ms-inline-flexbox;
   display: inline-block;
-  border: 1px solid #faf8f83d;
+  border: 1px solid #798e99;
   border-radius: 6px;
   max-width: 100%;
-  height: 25%%;
+  height: 17%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-left: 5%;
@@ -201,7 +201,7 @@ input[type=password] {
 
 .container .signin {
     position: absolute;
-    top: 68%;
+    top: 60%;
     left: 87%;
     width: 25%;
     -webkit-transition-duration: 0.8s;
@@ -210,15 +210,14 @@ input[type=password] {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #B25A2C;
+    background-color: #ff6b1b;
     color: white;
     font-size: 12px;
-
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
     font-family: font1;
-    border: 0.5px solid #ffffff;
+    border: 0.5px solid #8698a2;
     padding: 7px;
     padding-right: 18px;
     padding-left: 18px;
@@ -373,31 +372,33 @@ h3
 {
   color: #ffffff;
   font-size: 0.8em;
-  font-family: font3;
+  font-family: font4;
   letter-spacing: 1px;
 }
 h4
 {
-    color: #166D95;
-    font-size: 1em;
+    color: #106897;
+    font-size: 1.2em;
     padding-left: 9.5%;
     padding-right: 9.5%;
+    font-family: font1;
 }
 
 p
 {
-  color: #000000;
+  color: #3d3d3d;
   font-size: 1em;
   padding-left: 7.5%;
   padding-right: 7.5%;
-  font-family: font3;
+  font-family: font4;
 }
 
 .btn
 {
   text-decoration: underline;
+  font-family: font4;
   font-size: 0.8em;
-  color:red;
+  color:#ff0000;
 }
 
 

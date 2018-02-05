@@ -153,8 +153,8 @@ class App extends Component {
                <div className="img-cont">
                <img  id="image1" src="1.png" alt="IT Service Management Illustration"/>
                </div>
-                 <div><h4 className="card-title">IT SERVICE MANAGEMENT</h4></div>
-                 <p className="card-text" id="ct1">Create incidents/requests, resolve problems or find answers in the knowledge base.</p>
+                 <div><h4 className="card-title">IT OPERATIONS ANALYTICS</h4></div>
+                 <p className="card-text" id="ct1">Get a 360' view of your entire IT landscape to enhance availability, experience and ROI.</p>
                  <a href="" className="btn btn-primary">Read More</a>
                </div>
             </div>
@@ -165,8 +165,8 @@ class App extends Component {
              <div className="img-cont">
              <img id="image1" src="2.png" alt="REAL TIME IT OPERATIONS MANAGEMEN Illustration"/>
              </div>
-               <div><h4 className="card-title">REAL TIME IT OPERATIONS MANAGEMENT</h4></div>
-               <p className="card-text" id="ct2">Manage IT with real time Operations Manager and Engineer Dashboards.</p>
+               <div><h4 className="card-title">BUSINESS INTELLIGENCE</h4></div>
+               <p className="card-text" id="ct2">Build Dashboards with a few clicks to visualise your data with descriptive analytics.</p>
                <a href="" className="btn btn-primary">Read More</a>
              </div>
           </div>
@@ -179,9 +179,9 @@ class App extends Component {
              <img id="image1" src="3.png" alt="ADMINISTRATION Illustration"/>
              </div>
              <div>
-               <h4 className="card-title">ADMINISTRATION</h4>
+               <h4 className="card-title">ARTIFICIAL INTELLIGENCE</h4>
                </div>
-               <p className="card-text" id="ct3">Manage users, events, reports and other administartive controls.</p>
+               <p className="card-text" id="ct3">Leverage Machine Learning to detect patterns, find anomalies and predict the future.</p>
                <a href="" className="btn btn-primary">Read More</a>
              </div>
           </div>
