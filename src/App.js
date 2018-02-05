@@ -155,7 +155,6 @@ class App extends Component {
                </div>
                  <div><h4 className="card-title">IT OPERATIONS ANALYTICS</h4></div>
                  <p className="card-text" id="ct1">Get a 360' view of your entire IT landscape to enhance availability, experience and ROI.</p>
-                 <a href="" className="btn btn-primary">Read More</a>
                </div>
             </div>
             </div>
@@ -167,7 +166,6 @@ class App extends Component {
              </div>
                <div><h4 className="card-title">BUSINESS INTELLIGENCE</h4></div>
                <p className="card-text" id="ct2">Build Dashboards with a few clicks to visualise your data with descriptive analytics.</p>
-               <a href="" className="btn btn-primary">Read More</a>
              </div>
           </div>
             </div>
@@ -182,7 +180,6 @@ class App extends Component {
                <h4 className="card-title">ARTIFICIAL INTELLIGENCE</h4>
                </div>
                <p className="card-text" id="ct3">Leverage Machine Learning to detect patterns, find anomalies and predict the future.</p>
-               <a href="" className="btn btn-primary">Read More</a>
              </div>
           </div>
             </div>
