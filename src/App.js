@@ -153,7 +153,7 @@ class App extends Component {
                <div className="img-cont">
                <img  id="image1" src="1.png" alt="IT Service Management Illustration"/>
                </div>
-                 <div><h4 className="card-title">IT SERVICE MANAGEMENT <br/><br/></h4></div>
+                 <div><h4 className="card-title">IT SERVICE MANAGEMENT</h4></div>
                  <p className="card-text" id="ct1">Create incidents/requests, resolve problems or find answers in the knowledge base.</p>
                  <a href="" className="btn btn-primary">Read More</a>
                </div>
@@ -179,7 +179,7 @@ class App extends Component {
              <img id="image1" src="3.png" alt="ADMINISTRATION Illustration"/>
              </div>
              <div>
-               <h4 className="card-title">ADMINISTRATION<br/><br/></h4>
+               <h4 className="card-title">ADMINISTRATION</h4>
                </div>
                <p className="card-text" id="ct3">Manage users, events, reports and other administartive controls.</p>
                <a href="" className="btn btn-primary">Read More</a>

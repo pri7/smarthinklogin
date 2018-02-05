@@ -63,7 +63,7 @@
 
 
 body{line-height:1}
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+article,aside,details,figcaption,figure,header,hgroup,menu,nav,section{display:block}
 nav ul{list-style:none}
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:none}
@@ -134,7 +134,7 @@ body{
   width: 25%;
   background: #00024400;
   position: absolute;
-  top: 12%;
+  top: 16%;
   right: 12.5%;
   z-index: 1;
   display: flow-root;
@@ -165,7 +165,7 @@ input[type=text] {
 input[type=password] {
   width: 100%;
   padding-bottom: 1.2%;
-  margin-top: 2%;
+  margin-top: 4%;
   font-size: 1.5em;
   color: white;
   font-family: font3;
@@ -201,25 +201,25 @@ input[type=password] {
 
 .container .signin {
     position: absolute;
-    margin-top: 2%;
-    top: 70%;
-    left: 83%;
+    top: 68%;
+    left: 87%;
     width: 25%;
-    -webkit-transition-duration: 1s;
-    -o-transition-duration: 1s;
-    transition-duration: 1s;
+    -webkit-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #cd4e1e;
+    background-color: #B25A2C;
     color: white;
     font-size: 12px;
-    border-radius: 6px;
+
+    border-radius: 4px;
     cursor: pointer;
     text-align: center;
     font-family: font1;
-    letter-spacing: 1px;
-    padding: 6px;
+    border: 0.5px solid #ffffff;
+    padding: 7px;
     padding-right: 18px;
     padding-left: 18px;
 
@@ -229,7 +229,7 @@ input[type=password] {
 .container .signin:hover {
     background-color: black;
     color: white;
-    box-shadow: 0 12px 16px 0 rgba(256,256,256,0.24),0 17px 50px 0 rgba(256,256,256,0.12);
+    box-shadow: 0 6px 6px 0 rgba(256,256,256,0.24),0 17px 50px 0 rgba(256,256,256,0.12);
 }
 
 #icon{
@@ -286,24 +286,24 @@ body {
     float: left;
     padding: 10px;
     height: auto; /* Should be removed. Only for demonstration */
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
 }
 
 .left {
-  width: 31.66%;
+  width: 32.66%;
   background-color: #ffffff;
 
-  margin-right:2.5%;
+  margin-right:1%;
 }
 .right {
-  width: 31.66%;
+  width: 32.66%;
   background-color: #ffffff;
-  margin-left: 2.5%;
+  margin-left: 1%;
 }
 
 .middle {
-  width: 31.66%;
+  width: 32.66%;
   background-color: #ffffff;
 }
 
@@ -315,36 +315,40 @@ body {
 }
 
 #row1 {
-height: 50%;
+height: auto;
 width: 75%;
 background: #00024400;
 position: absolute;
-top: 50%;
+top: 57%;
 right: 12.5%;
 z-index: 1;
 }
 
 
 #image {
-    height: 30%;
+    height: 34%;
     width: 17.5%;
     background: #00024400;
     position: absolute;
-    top: 25%;
-    right: 61%;
+    top: 24%;
+    right: 65%;
     z-index: 1;
 }
 
 #logo1
 {
-  padding: 9px;
+  padding: 17px;
   margin-left: 12.5%;
+  width: 15%;
+  padding-bottom: 20px;
 }
 #logo2
 {
-  padding: 10px;
-  float:right;
+  padding: 17px;
+  float: right;
   margin-right: 12.5%;
+  width: 12%;
+  padding-bottom: 20px;
 }
 
 #text {
@@ -393,6 +397,7 @@ p
 {
   text-decoration: underline;
   font-size: 0.8em;
+  color:red;
 }
 
 
@@ -404,7 +409,7 @@ p
 }
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 1px;
 
 }
 @media only screen and (min-width: 600px) {
@@ -464,7 +469,7 @@ p
       width: 75%;
       background-color: #ffffff;
       position: absolute;
-      top: 60%;
+      top: 65%;
       float: left;
       width: 100%;
       height: auto;
